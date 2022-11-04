@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row-text">
+            <div class="text1">
+                
+                    <p><marquee behavior="" direction="right" width="300px">
+                        إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ
+                    </marquee>
+                </p>
+        
+                <p>kami mengucapkan, turut berduka cita yang mendalam atas minggalnya guru kita</p>
+            </div>
+
+
+            <div class="text">
+                <p>tgh . L . m . badarudin</p>
+                <p>kami bersaksi beliau adalah orang sholeh dan tidak pernah berhenti mensyiarkan agama islam</p>
+                <p>semoga amal ibadah beliau di terima dan segala dosa di ampuni dan keluraga yang di tinggalkan di
+                    berikan ketabahan </p>
+                <p>اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ</p>
+                <p>آمِيْن يَا رَبَّ العَالَمِيْنَ</p>
+            </div>
+        </div>
+        <div class="bingke">
+            <img src="bingke.png" alt="">
+        </div>
+        <img src="foto.jpg" alt="" class="foto">
+    </div>
+    3
+    4
+    5
+    6
+    7
+    8
+
+    <script language='JavaScript'>
+        var txt = "اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ";
+        var speed = 300;
+        var refresh = null;
+
+        function action() {
+            document.title = txt;
+            txt = txt.substring(1, txt.length) + txt.charAt(0);
+            refresh = setTimeout("action()", speed);
+        }
+        action();
+    </script>
+</body>
+
+</html>
