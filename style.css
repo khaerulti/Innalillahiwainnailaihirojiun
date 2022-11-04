@@ -10,7 +10,7 @@ body{
     display:block;
     height: 100vh;
     text-transform: capitalize;
-    padding: 0 10px;
+    padding: 10px 10px;
 }  
 marquee{
     border-right:1px solid white ;
